@@ -10,12 +10,12 @@ body {
   --font-nunito-sans: "Nunito Sans";
 
   /* font sizes */
-  --font-size-13xl: 32px;
-  --font-size-xl: 20px;
-  --font-size-41xl: 60px;
-  --font-size-11xl: 30px;
-  --font-size-5xl: 24px;
-  --font-size-base: 16px;
+  --font-size-13xl: 2rem;
+  --font-size-xl: 1.25rem;
+  --font-size-41xl: 3.75rem;
+  --font-size-11xl: 1.875rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-base: 1rem;
 
   /* Colors */
   --color-white: #fff;
@@ -30,10 +30,25 @@ body {
   --color-dimgray-200: #545567;
 
   /* Border radiuses */
-  --br-23xl: 42px;
-  --br-61xl: 80px;
-  --br-base: 16px;
-  --br-9980xl: 9999px;
-  --br-5xs: 8px;
-  --br-xl: 20px;
+  --br-23xl: 2.625rem;
+  --br-61xl: 5rem;
+  --br-base: 1rem;
+  --br-9980xl: 99.99%;
+  --br-5xs: 0.5rem;
+  --br-xl: 1.25rem;
+}
+
+/* Media Query for Small Screens (example: up to 600px) */
+@media screen and (max-width: 600px) {
+  /* Adjust styles for smaller screens here */
+}
+
+/* Media Query for Medium Screens (example: 601px to 1024px) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Adjust styles for medium screens here */
+}
+
+/* Media Query for Large Screens (example: 1025px and above) */
+@media screen and (min-width: 1025px) {
+  /* Adjust styles for large screens here */
 }
